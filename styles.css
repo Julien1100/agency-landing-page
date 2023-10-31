@@ -73,7 +73,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  max-width: 100vw;
   margin: 20px;
 }
 
@@ -252,4 +252,133 @@ form>button {
 
 /* BLOG SECTION */
 
-/* FOOTER SECTION */
+.blogs {
+  margin-top: 116px;
+  margin-bottom: 70px;
+}
+
+.blogs>h2 {
+  margin-bottom: 10px;
+}
+
+div.articles {
+  width: 100vw;
+}
+
+div.article {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  margin: 30px 20px;
+  background-color: var(--sky-blue);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#article-1 .article-image {
+  background: url(./images/high_five.png);
+}
+
+#article-2 .article-image {
+  background: url(./images/man-whiteboard.png);
+}
+
+.article-image {
+  height: 60%;
+  /* width: 100%; */
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+div.article-infos {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.article-infos p {
+  color: var(--dark-midnight-blue);
+  font-size: 20px;
+  line-height: 150%;
+}
+
+button.read-more {
+  background: none;
+  color: var(--blue-default);
+  font-size: 16px;
+  padding: 0;
+
+  gap: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  background-color: var(--very-dark-blue);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: var(--light-gray);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 62px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.logos img {
+  width: 62px;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.newsletter {
+  padding: 40px 20px;
+}
+
+.newsletter h3 {
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input#email-newsletter {
+  border: 1px solid #7B7C82;
+  background: none;
+  margin: 18px 0 14px;
+  color: var(--light-gray);
+  align-self: stretch;
+}
+
+#terms-conditions {
+  color: inherit;
+}
+
+.newsletter-form>button {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 13px 26px;
+}
+
+.newsletter-form>p {
+  font-size: 13px;
+}
