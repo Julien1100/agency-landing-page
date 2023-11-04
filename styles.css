@@ -125,7 +125,7 @@ i:hover {
   cursor: pointer;
 }
 
-div.woman_dots {
+div.woman-dots {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,16 +156,16 @@ div.dots {
   color: var(--heading);
 }
 
-.team_blue_form {
+.team-blue-form {
   padding: 30px 20px;
 }
 
-.commercial_pitch {
+.commercial-pitch {
   gap: 16px;
   margin-bottom: 70px;
 }
 
-.commercial_pitch>p.content {
+.commercial-pitch>p.content {
   color: var(--body-text);
 }
 

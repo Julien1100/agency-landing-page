@@ -2,7 +2,6 @@
 
 @media screen and (min-width: 376px) and (max-width: 768px) {
 
-
   /* MAIN ASSETS */
 
   h1, h2 {
@@ -36,7 +35,7 @@
     max-width: 55%;
   }
 
-  .woman_dots {
+  .woman-dots {
     padding-top: 20px;
   }
 
@@ -51,7 +50,7 @@
   /* IDENTITY & COMMERCIAL PITCH SECTION */
 
   .identity, 
-  .commercial_pitch {
+  .commercial-pitch {
     padding: 0 60px;
   }
 
@@ -59,7 +58,7 @@
     font-size: 18px;
   }
 
-  .commercial_pitch>p.content {
+  .commercial-pitch>p.content {
     text-align: left;
   }
 
