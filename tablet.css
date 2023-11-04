@@ -1,0 +1,186 @@
+/* TABLET VERSION */
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+
+
+  /* MAIN ASSETS */
+
+  h1, h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /* HERO SECTION */
+
+  section.hero {
+    flex-direction: row;
+    padding: 0 60px;
+    gap: 10px;
+  }
+
+  .hero-top {
+    gap: 30px;
+  }
+
+  h1.heading {
+    text-align: left;
+    line-height: 140%;
+    padding: 0;
+  }
+
+  .hero-top>button {
+    align-self: flex-start;
+    max-width: 55%;
+  }
+
+  .woman_dots {
+    padding-top: 20px;
+  }
+
+  .hero img.woman {
+    width: 40vw;
+  }
+
+  .dots {
+    padding-top: 10px;
+  }
+
+  /* IDENTITY & COMMERCIAL PITCH SECTION */
+
+  .identity, 
+  .commercial_pitch {
+    padding: 0 60px;
+  }
+
+  .identity>p.content {
+    font-size: 18px;
+  }
+
+  .commercial_pitch>p.content {
+    text-align: left;
+  }
+
+  /* SERVICES SECTION */
+
+  .gallery img {
+    border-radius: 1rem;
+  }
+
+  .illustrations .informations-card {
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  .service-title {
+    gap: 14px;
+  }
+
+  .service-title svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .service-title p {
+    font-size: 1.25rem;
+  }
+  
+  .service .call-to-action button {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  /* CLIENT STORIES SECTION */
+
+  .stories-container {
+    padding: 30px;
+    margin: 40px 140px 30px;
+  }
+
+  /* CONTACT SECTION */
+
+  .business-infos-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px;
+  }
+
+  form.contact-form {
+    width: 70vw;
+    padding: 40px;
+  }
+
+  form>button {
+    width: 20vw;
+  }
+
+  /* BLOG SECTION */
+
+  div.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  div.article {
+    max-width: 40%;
+    flex-grow: 1;
+  }
+
+  /* FOOTER */
+
+  footer {
+    padding-top: 50px;
+  }
+
+  .logos-newsletter {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 0 60px;
+  }
+
+  .logos {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .socials {
+    order: 2;
+  }
+
+  .logos img {
+    order: 1;
+    position: unset;
+  }
+
+  .newsletter {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  .contact-explore {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    padding: 50px 60px;
+  }
+
+  .contact {
+    padding: 0;
+  }
+
+  .explore {
+    padding: 0;
+  }
+
+}
