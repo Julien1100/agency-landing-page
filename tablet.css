@@ -1,6 +1,6 @@
 /* TABLET VERSION */
 
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 376px) {
 
   /* MAIN ASSETS */
 
@@ -58,7 +58,7 @@
     font-size: 18px;
   }
 
-  .commercial-pitch>p.content {
+  .commercial-pitch .content p {
     text-align: left;
   }
 
@@ -104,7 +104,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 40px;
   }
 
   form.contact-form {

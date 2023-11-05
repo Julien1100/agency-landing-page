@@ -7,19 +7,11 @@
   --body-text: #4F5863;
   --heading: #1A2630;
   --white: #FFFFFF;
-  --dark-midnight-blue: #1A2630;
   --light-gray: #F5F5F5;
   --sky-blue: #E9F4FF;
-  --sapphire-blue: #4361EE;
   --transparent-black: #000000B2;
-  --light-silver: #D9D9D9;
-  --pale-lavender: #EDEFF9;
-  --steel-blue: #9AA5B3;
   --silver-blue: #E2E7ED;
   --baby-blue: #F4F6FE;
-  --powder-blue: #B4D5F6;
-  --light-periwinkle: #DAE1FC;
-  --black: #000000;
   --very-dark-blue: #03071B;
   --slate-gray: #7B7C82;
 }
@@ -39,7 +31,7 @@
 }
 
 .material-icons.md-18 {
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .material-icons.md-36 {
@@ -74,7 +66,7 @@ section,
   align-items: center;
 }
 
-h1, 
+h1,
 h2 {
   color: var(--heading);
 }
@@ -165,8 +157,15 @@ div.dots {
   margin-bottom: 70px;
 }
 
-.commercial-pitch>p.content {
+.commercial-pitch>.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   color: var(--body-text);
+}
+
+.commercial-pitch>.content p {
+  line-height: 170%;
 }
 
 /* SERVICES SECTION */
@@ -263,9 +262,15 @@ section.client-stories {
   border-radius: 15px;
 }
 
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .stories-container svg {
   margin-top: 40px;
   margin-bottom: 20px;
+  align-self: center;
 }
 
 p.testimonials {
@@ -313,7 +318,7 @@ p.testimonials {
 }
 
 .business-infos-right p:first-child {
-  color: var(--dark-midnight-blue);
+  color: var(--heading);
   font-size: 24px;
 }
 
@@ -336,7 +341,7 @@ form.contact-form {
 }
 
 form>label {
-  color: var(--dark-midnight-blue);
+  color: var(--heading);
 }
 
 form>input {
@@ -394,7 +399,7 @@ div.article-infos {
 }
 
 .article-infos p {
-  color: var(--dark-midnight-blue);
+  color: var(--heading);
   font-size: 20px;
   line-height: 150%;
 }
